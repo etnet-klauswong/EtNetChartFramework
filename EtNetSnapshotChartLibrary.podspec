@@ -6,7 +6,8 @@ Pod::Spec.new do |s|
   s.authors = {"klauswongEtnet"=>"klauswong@etnet.com.hk"}
   s.homepage = "http://EXAMPLE/EtNetSnapshotChartLibrary"
   s.description = "Through this SnapshotChartLibrary API, you would get back the snapshotChartUIView"
-  s.source = { :path => '.' }
+  s.source           = { :git => 'https://github.com/etnet-klauswong/EtNetChartFramework.git', :tag => "1.0.0" }
+  # s.source = { :path => 'https://github.com/etnet-klauswong/EtNetChartFramework.git' }
 
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'ios/EtNetSnapshotChartLibrary.framework'
