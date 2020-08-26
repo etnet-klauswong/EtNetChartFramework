@@ -1,0 +1,6 @@
+framework module EtNetSnapshotChartLibrary {
+  umbrella header "EtNetSnapshotChartLibrary.h"
+
+  export *
+  module * { export * }
+}
