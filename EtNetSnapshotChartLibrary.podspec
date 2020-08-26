@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "EtNetSnapshotChartLibrary"
-  s.version = "1.0.3"
+  s.version = "1.0.0"
   s.summary = "A SnapshotchartLibrary produced by EtNet"
   s.license = "MIT"
   s.authors = {"klauswongEtnet"=>"klauswong@etnet.com.hk"}
